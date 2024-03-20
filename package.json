@@ -8,11 +8,13 @@
     "test": "echo \"Error: no test specified\" && exit 1",
     "dev": "json-server --watch db.json"
   },
-  "author": "nhut",
+  "author": "Anh Minh",
   "license": "ISC",
   "dependencies": {
+    "bcrypt": "^5.1.1",
     "express": "^4.18.3",
     "json-server": "^1.0.0-alpha.23",
+    "jsonwebtoken": "^9.0.2",
     "uuid": "^9.0.1"
   }
 }
